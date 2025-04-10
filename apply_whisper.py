@@ -11,7 +11,7 @@ class ApplyWhisperNode:
         return {
             "required": {
                 "audio": ("AUDIO",),
-                "model": (["base", "tiny", "small", "medium", "large"],),
+                "model": (["base", "tiny", "small", "medium", "large","turbo"],),
             }
         }
 
